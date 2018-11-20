@@ -6,16 +6,36 @@ using System.Threading.Tasks;
 
 namespace CalculatorGitHubLab
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine(Add(1, 2));
+            Console.WriteLine(Sub(5, 2));
+            Console.WriteLine(Mul(1, 2));
+            Console.WriteLine(Div(23, 4));
+           
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+           
+        }
+
+        static int Add(int a , int b)
+        {
+            return a + b;
+        }
+        static int Sub(int a, int b)
+        {
+            return a - b;
+        }
+        static int Mul(int a, int b)
+        {
+            return a * b;
+        }
+        static int Div(int a, int b)
+        {
+            return a / b;
         }
     }
 }
