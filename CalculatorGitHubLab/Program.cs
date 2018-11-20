@@ -42,5 +42,10 @@ namespace CalculatorGitHubLab
         {
             return a % b;
         }
+
+        public void ScientificFunctionality()
+        {
+            Console.WriteLine(" Scientific Calculator");
+        }
     }
 }
